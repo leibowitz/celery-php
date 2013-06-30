@@ -1,7 +1,5 @@
 <?php
 
-namespace Celery;
-
 use PhpAmqpLib\Connection\AMQPConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
