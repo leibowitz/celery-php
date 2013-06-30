@@ -2,6 +2,8 @@
 
 /* TODO documentation is completely missing */
 
+namespace Celery;
+
 /**
  * Abstraction for AMQP client libraries
  * Abstract base class

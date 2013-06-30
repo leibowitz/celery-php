@@ -41,6 +41,8 @@
  * @author GDR! <gdr@go2.pl>
  */
 
+namespace Celery;
+
 /**
  * General exception class
  * @package celery-php

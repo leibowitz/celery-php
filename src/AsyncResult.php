@@ -41,6 +41,8 @@
  * @author GDR! <gdr@go2.pl>
  */
 
+namespace Celery;
+
 /*
  * Asynchronous result of Celery task
  * @package celery-php
