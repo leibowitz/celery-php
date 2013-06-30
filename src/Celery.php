@@ -52,8 +52,6 @@ class CeleryException extends Exception {};
  */
 class CeleryTimeoutException extends CeleryException {};
 
-require('amqp.php');
-
 /**
  * Client for a Celery server
  * @package celery-php

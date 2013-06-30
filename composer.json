@@ -18,6 +18,6 @@
 		"videlalvaro/php-amqplib": ">=2.0.0"           
     },
     "autoload": {
-        "classmap": ["celery.php"]
+        "psr-0": {"Celery\\": ["src/"]}
     }
 }

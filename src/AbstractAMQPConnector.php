@@ -2,17 +2,6 @@
 
 /* TODO documentation is completely missing */
 
-/* Include Composer installed packages if available */
-@include_once('vendor/autoload.php');
-
-/* Include namespaced code only if PhpAmqpLib available */
-if(class_exists('PhpAmqpLib\Connection\AMQPConnection'))
-{
-	require_once('amqplibconnector.php');
-}
-
-require_once('amqppeclconnector.php');
-
 /**
  * Abstraction for AMQP client libraries
  * Abstract base class
